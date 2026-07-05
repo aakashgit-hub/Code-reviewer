@@ -1,0 +1,23 @@
+# Gemini API Key (required)
+# GitHub Token (required for higher rate limits)
+GEMINI_API_KEY=REPLACE_WITH_YOUR_GEMINI_API_KEY
+GITHUB_TOKEN=REPLACE_WITH_YOUR_GITHUB_TOKEN
+
+# LLM Models (LiteLLM format)
+MAIN_MODEL=gemini/gemini-2.5-pro
+SUB_MODEL=gemini/gemini-2.5-flash
+
+# RLM Configuration
+MAX_ITERATIONS=20
+MAX_LLM_CALLS=25
+
+# Repo Snapshot Constraints
+MAX_FILE_BYTES=200000
+MAX_TOTAL_BYTES=5000000
+
+# Cache directory
+CR_CACHE_DIR=~/.cr
+
+# API Server
+API_HOST=127.0.0.1
+API_PORT=8000
