@@ -41,6 +41,7 @@ def get_suggestion_generator():
     global _generator
     if _generator is None:
         # Ensure dspy is configured (should be done by main app, but safe to check)
-        # We assume dspy.configure is called elsewhere with the correct LMs
+        if not dspy.settings.lm:
+            dspy.configure(lm=dspy.LM(SUB_MODEL))
         _generator = SuggestionGenerator()
     return _generator

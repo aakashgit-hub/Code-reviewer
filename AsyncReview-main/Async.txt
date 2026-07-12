@@ -1,10 +1,9 @@
 # Gemini API Key (required)
 # GitHub Token (required for higher rate limits)
-GEMINI_API_KEY=REPLACE_WITH_YOUR_GEMINI_API_KEY
-GITHUB_TOKEN=REPLACE_WITH_YOUR_GITHUB_TOKEN
-
+GEMINI_API_KEY=
+GITHUB_TOKEN=
 # LLM Models (LiteLLM format)
-MAIN_MODEL=gemini/gemini-2.5-pro
+MAIN_MODEL=gemini/gemini-2.5-flash
 SUB_MODEL=gemini/gemini-2.5-flash
 
 # RLM Configuration
